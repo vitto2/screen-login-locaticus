@@ -1,16 +1,7 @@
 # screen_login_locaticus
 
-A new Flutter project.
 
-## Getting Started
+Projeto para pratica de alguns conceitos como componentização, widget de formulários e validação de input de dados 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+UX da tela que vou tentar desenvolver 
+![image](https://user-images.githubusercontent.com/47305804/200182779-46a8c74a-798f-4446-8f3e-3624bfebbc09.png)
