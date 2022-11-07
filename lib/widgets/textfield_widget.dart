@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 
 class MyTextForm extends StatelessWidget {
-  MyTextForm({required keyboardType,required this.hintText, required this.prefixIcon, super.key});
+  MyTextForm(
+      {required keyboardType,
+      required this.hintText,
+      required this.prefixIcon,
+      required this.fontSize,
+      super.key});
 
   String? hintText;
   Widget prefixIcon;
   TextInputType? keyboardType;
+  double? fontSize;
 
   OutlineInputBorder enableBorder = const OutlineInputBorder(
     borderSide: BorderSide(color: Colors.white),
@@ -23,9 +29,9 @@ class MyTextForm extends StatelessWidget {
           fillColor: Colors.white12,
           border: enableBorder,
           hintText: hintText,
-          hintStyle: const TextStyle(
+          hintStyle: TextStyle(
             color: Colors.white38,
-            fontSize: 20,
+            fontSize: fontSize,
             fontWeight: FontWeight.w400,
           ),
           prefixIcon: IconTheme(

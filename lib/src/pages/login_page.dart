@@ -47,6 +47,7 @@ class _LoginState extends State<Login> {
                   hintText: "E-mail Address",
                   prefixIcon: const Icon(Icons.mail),
                   keyboardType: TextInputType.emailAddress,
+                  fontSize: 20,
                 ),
               ),
               SizedBox(
@@ -55,6 +56,7 @@ class _LoginState extends State<Login> {
                   hintText: "• • • • • •",
                   prefixIcon: const Icon(Icons.lock),
                   keyboardType: TextInputType.visiblePassword,
+                  fontSize: 20,
                 ),
               ),
               SizedBox(
@@ -66,6 +68,7 @@ class _LoginState extends State<Login> {
               ),
               MyTextWidget(
                 value: "Forgot password?",
+                color: Colors.white30,
               ),
             ],
           ),
