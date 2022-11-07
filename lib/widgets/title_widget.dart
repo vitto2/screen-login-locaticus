@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 
 class MyTextWidget extends StatefulWidget {
-  MyTextWidget({required this.value, this.color, this.fontWeight, super.key});
+  MyTextWidget(
+      {this.fontSize,
+      required this.value,
+      this.color,
+      this.fontWeight,
+      super.key});
 
   String value;
   Color? color;
-
+  double? fontSize;
   FontWeight? fontWeight;
 
   @override
@@ -21,7 +26,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
         widget.value,
         style: TextStyle(
           color: widget.color,
-          fontSize: 30.0,
+          fontSize: widget.fontSize,
           fontWeight: widget.fontWeight,
         ),
       ),
