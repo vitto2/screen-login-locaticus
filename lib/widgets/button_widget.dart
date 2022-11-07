@@ -14,7 +14,12 @@ class MyButton extends StatelessWidget {
           backgroundColor: backgroundColor,
         ),
         onPressed: () {},
-        child: const Text("Sign in"),
+        child: const Text(
+          "Sign in",
+          style: TextStyle(
+            fontSize: 25,
+          ),
+        ),
       ),
     );
   }
