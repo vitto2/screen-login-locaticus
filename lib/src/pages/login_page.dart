@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:screen_login_locaticus/widgets/button_widget.dart';
+import 'package:screen_login_locaticus/widgets/text_button.dart';
 import 'package:screen_login_locaticus/widgets/textfield_widget.dart';
 import 'package:screen_login_locaticus/widgets/title_widget.dart';
 
@@ -66,10 +67,10 @@ class _LoginState extends State<Login> {
                   backgroundColor: const Color.fromARGB(255, 67, 182, 126),
                 ),
               ),
-              MyTextWidget(
-                value: "Forgot password?",
+              MyTextButton(
+                 value: "Forgot password?",
                 color: Colors.white30,
-              ),
+              )
             ],
           ),
         ),
