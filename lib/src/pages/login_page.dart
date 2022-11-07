@@ -25,9 +25,9 @@ class _LoginState extends State<Login> {
                 height: 80,
               ),
               MyTextWidget(
-                "Welcome to Locaticus",
-                Colors.white,
-                FontWeight.w400,
+                value: "Welcome to Locaticus",
+                color: Colors.white,
+                fontWeight: FontWeight.w400,
               ),
               const Divider(
                 indent: 150,
@@ -63,6 +63,9 @@ class _LoginState extends State<Login> {
                 child: MyButton(
                   backgroundColor: const Color.fromARGB(255, 67, 182, 126),
                 ),
+              ),
+              MyTextWidget(
+                value: "Forgot password?",
               ),
             ],
           ),

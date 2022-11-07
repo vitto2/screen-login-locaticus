@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class MyTextWidget extends StatefulWidget {
-  MyTextWidget(this.value, this.color, this.fontWeight, {super.key});
+  MyTextWidget({required this.value, this.color, this.fontWeight, super.key});
 
-  String value = "";
+  String value;
   Color? color;
 
   FontWeight? fontWeight;
