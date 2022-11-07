@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:screen_login_locaticus/widgets/button_widget.dart';
 import 'package:screen_login_locaticus/widgets/textfield_widget.dart';
 import 'package:screen_login_locaticus/widgets/title_widget.dart';
 
@@ -53,6 +54,13 @@ class _LoginState extends State<Login> {
                 hintText: "• • • • • •",
                 prefixIcon: const Icon(Icons.lock),
                 keyboardType: TextInputType.visiblePassword,
+              ),
+            ),
+            SizedBox(
+              width: 350,
+              height: 70,
+              child: MyButton(
+                backgroundColor: const Color.fromARGB(255, 67, 182, 126),
               ),
             ),
           ],
